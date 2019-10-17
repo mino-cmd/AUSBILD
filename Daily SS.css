@@ -1,109 +1,128 @@
 body {
     text-align: center;
+    background-color: #1E1F3A;
+    scroll-behavior:smooth;
 }
 
-h1 {
-    color: Black;
+.love h1 {
+    color: #6888D1;
     text-align: left;
 }
 
-p {
-    color: unset;
+.love h2 {
+    color: #6888D1;
+    text-align: left;
 }
 
-#onelist{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style-position:inside;
-}
-
-.Brownbaby {
+nav ul {
+    height: 400px;
+    width: 18%;
+    overflow: hidden;
+    overflow-y: scroll;
     margin: 10px autop 10px auto;
     text-align: center;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: 'Abel', cursive;
+    color: #996081;
 }
 
-.FULLTING{
-    padding-left:40%;
+#onelist {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-position: inside;
+    padding-left: 40%;
+
+}
+
+
+.FULLTING {
+    padding-left: 40%;
 }
 
 /* NOTE! NOTE! --LINES-- NOTE! NOTE! */
-.LINE{
-    position: absolute;
+
+.LINE {
+    position: sticky; 
     stroke: #6d0baf;
-    stroke-width:unset; 
-    margin-right: 1%;
+    stroke-width: unset;
+    margin-left: 0%;
     margin-top: 2%;
 }
+
 /* NOTE! NOTE! --LINES-- NOTE! NOTE! */
-.FLINE{
-    position: fixed;
+
+.FLINE {
+    position: sticky;
     stroke: #6d0baf;
-    stroke-width:unset; 
-    margin-left: 130px;
+    stroke-width: unset;
+    margin-left: -120px;
     margin-top: 2%;
 }
 
 /*NOTE NOTE --OBJECTS-- NOTE NOTE!*/
-p.RAIDSKETCH{
+
+p.RAIDSKETCH {
     border: 2px solid #c04e4e;
     border-radius: 10px;
     font-size: 10px;
     width: 6%;
-    height: 70px; 
-    border-style:double;
-    border-top-left-radius: 300px 100px  ;
-    border-top-right-radius: 300px 100px ;
-    border-bottom-left-radius: 300px 100px  ;
-    border-bottom-right-radius: 300px 100px ;
+    height: 70px;
+    border-style: double;
+    border-top-left-radius: 300px 100px;
+    border-top-right-radius: 300px 100px;
+    border-bottom-left-radius: 300px 100px;
+    border-bottom-right-radius: 300px 100px;
     -moz-border-radius-top-left: 2px 2px;
     -moz-border-radius-top-right: 300px 100px;
-    -moz-border-radius-bottom-left:300px 100px;
+    -moz-border-radius-bottom-left: 300px 100px;
     -moz-border-radius-bottom-right: 300px 100px;
     -webkit-border-radius-top-left: 2px 2px;
     -webkit-border-radius-top-right: 300px 100px;
-    -webkit-border-radius-bottom-left:300px 100px;
+    -webkit-border-radius-bottom-left: 300px 100px;
     -webkit-border-radius-bottom-right: 300px 100px;
 }
+
 /*NOTE NOTE --OBJECTS-- NOTE NOTE!*/
-p.RAIDSKETCHH{
+
+p.RAIDSKETCHH {
     border: 2px solid #9c3c3c;
     border-radius: 10px;
     font-size: 10px;
     width: 6%;
     height: 70px;
-    border-style:ridge;
-    border-top-left-radius: 300px 100px  ;
-    border-top-right-radius: 300px 100px ;
-    border-bottom-left-radius: 300px 100px  ;
-    border-bottom-right-radius: 300px 100px ;
+    border-style: ridge;
+    border-top-left-radius: 300px 100px;
+    border-top-right-radius: 300px 100px;
+    border-bottom-left-radius: 300px 100px;
+    border-bottom-right-radius: 300px 100px;
     -moz-border-radius-top-left: 2px 2px;
     -moz-border-radius-top-right: 300px 100px;
-    -moz-border-radius-bottom-left:300px 100px;
+    -moz-border-radius-bottom-left: 300px 100px;
     -moz-border-radius-bottom-right: 300px 100px;
     -webkit-border-radius-top-left: 2px 2px;
     -webkit-border-radius-top-right: 300px 100px;
-    -webkit-border-radius-bottom-left:300px 100px;
+    -webkit-border-radius-bottom-left: 300px 100px;
     -webkit-border-radius-bottom-right: 300px 100px;
 }
+
 /*NOTE NOTE --OBJECTS-- NOTE NOTE!*/
-p.RAIDDSKETCH{
+
+p.RAIDDSKETCH {
     border: 2px solid #b15757;
     border-radius: 10px;
     font-size: 10px;
     width: 6%;
     height: 70px;
-    border-style:dashed;
-    border-top-left-radius: 300px 100px  ;
-    border-top-right-radius: 300px 100px ;
-    border-bottom-left-radius: 300px 100px  ;
-    border-bottom-right-radius: 300px 100px ;
+    border-style: dashed;
+    border-top-left-radius: 300px 100px;
+    border-top-right-radius: 300px 100px;
+    border-bottom-left-radius: 300px 100px;
+    border-bottom-right-radius: 300px 100px;
     -moz-border-radius-top-left: 2px 2px;
     -moz-border-radius-top-right: 300px 100px;
-    -moz-border-radius-bottom-left:300px 100px;
+    -moz-border-radius-bottom-left: 300px 100px;
     -moz-border-radius-bottom-right: 300px 100px;
     -webkit-border-radius-top-left: 2px 2px;
     -webkit-border-radius-top-right: 300px 100px;
-    -webkit-border-radius-bottom-left:300px 100px;
+    -webkit-border-radius-bottom-left: 300px 100px;
     -webkit-border-radius-bottom-right: 300px 100px;
 }
